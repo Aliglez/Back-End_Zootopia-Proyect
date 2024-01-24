@@ -26,3 +26,5 @@ INSERT INTO animals (id_animal, name, family, gener, origin, type, title, image_
 INSERT INTO animals (id_animal, name, family, gener, origin, type, title, image_path) VALUES (default, 'Yacare', 'Reptil', 'Hembra', 'America del Sur', 'Caiman', 'Yacare', './src/assets/img/yacare.jpg');
 INSERT INTO animals (id_animal, name, family, gener, origin, type, title, image_path) VALUES (default, 'Zorro', 'Canidae', 'Hembra', 'Europa y Asia', 'Vulpes', 'Zorro', './src/assets/img/zorro.jpg');
 INSERT INTO animals (id_animal, name, family, gener, origin, type, title, image_path) VALUES (default, 'Zorro de las Nieves', 'Canidae', 'Macho', 'Artico', 'Vulpes', 'Zorro Nival', './src/assets/img/zorrodelasnieves.jpg');
+
+
