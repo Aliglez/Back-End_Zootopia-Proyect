@@ -28,3 +28,6 @@ INSERT INTO animals (id_animal, name, family, gener, origin, type, title, image_
 INSERT INTO animals (id_animal, name, family, gener, origin, type, title, image_path) VALUES (default, 'Zorro de las Nieves', 'Canidae', 'Macho', 'Artico', 'Vulpes', 'Zorro Nival', './src/assets/img/zorrodelasnieves.jpg');
 
 
+//INSERT users
+
+INSERT INTO users (id_user, username, password) VALUES (default, 'admin@zootopia.es', '$2a$12$pTilQ7K1v1ClSPo1xcd2Re9898lOpi9YtsXzXGTJvJO/s/bwL898G')

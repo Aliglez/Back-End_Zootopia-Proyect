@@ -2,6 +2,7 @@ package com.team_zootopia.backend_zootopia.services;
 
 import java.util.List;
 
+import org.springframework.lang.NonNull;
 import org.springframework.stereotype.Service;
 
 import com.team_zootopia.backend_zootopia.models.User;
@@ -18,6 +19,10 @@ public class UserService {
     public List<User> getAll(){
         List<User> users = repository.findAll();
         return users;
+    }
+    public User save(@NonNull User newUser) {
+        User userSaved = repository.save(newUser);
+        return userSaved;
     }
     
 }
