@@ -1,4 +1,4 @@
-INSERT INTO animals (id_animal, name, family, gener, origin, type, title, image_path) VALUES (default, 'Chacal', 'Canidae', 'Hembra', 'Africa', 'Canis', 'Chacal', './src/assets/img/chacal.jpg');
+INSERT INTO animals (id_animal, name, family, gener, origin, type, title, image_path) VALUES (default, 'Chacal', 'Canidae', 'Hembra', 'Africa', 'Canis', 'Chacal', './src/assets/img/chacales.jpg');
 INSERT INTO animals (id_animal, name, family, gener, origin, type, title, image_path) VALUES (default, 'Chita', 'Felidae', 'macho', 'Africa y Asia', 'Acinonyx', 'Chita', './src/assets/img/chita.jpg');
 INSERT INTO animals (id_animal, name, family, gener, origin, type, title, image_path) VALUES (default, 'Cocodrilo', 'Reptil', 'macho', 'America Central y del Sur', 'Cocodylus', 'Cocodrilo', './src/assets/img/cocodrilo.jpg');
 INSERT INTO animals (id_animal, name, family, gener, origin, type, title, image_path) VALUES (default, 'Comadreja', 'Mustelidae', 'macho', 'Europa, Asia y Africa', 'Mustela', 'Comadreja', './src/assets/img/comadreja2.jpg');
