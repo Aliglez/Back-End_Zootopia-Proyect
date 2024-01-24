@@ -14,17 +14,17 @@ import org.springframework.web.bind.annotation.RestController;
 import com.team_zootopia.backend_zootopia.models.Animal;
 import com.team_zootopia.backend_zootopia.services.IAnimalService;
 @RestController
-@RequestMapping(value = "/animals")
+@RequestMapping(path = "${api-endpoint}/animals")
 public class AnimalController {
     @Autowired
     private IAnimalService animalService;
 
-    @GetMapping
+    @GetMapping(path = "")
     public ResponseEntity<List<Animal>> getAllAnimals(){
         return ResponseEntity.ok(animalService.findAll());
     }
 
-    @GetMapping(value = "/{id}")
+    @GetMapping(path = "/{id}")
     public ResponseEntity<Animal> getAnimalsById(@PathVariable Long id){
         return animalService.findById(id)
                 .map(animal -> ResponseEntity.ok().body(animal))
